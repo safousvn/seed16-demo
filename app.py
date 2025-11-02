@@ -22,7 +22,8 @@ if "total_tokens" not in st.session_state:
     st.session_state.total_tokens = 0
 
 # --- API Settings ---
-API_URL = "https://ark.byteplusapi.com/v1/chat/completions"
+# API_URL = "https://ark.byteplusapi.com/v1/chat/completions"
+API_URL = "https://ark.ap-southeast.bytepluses.com/api/v3/chat/completions"
 MODEL_NAME = "seed-1.6"
 
 prompt_text = st.text_area("🧠 Prompt for Seed 1.6:", "Hello Seed, tell me something creative!", height=100)
